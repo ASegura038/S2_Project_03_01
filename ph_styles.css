@@ -1,0 +1,63 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: Champagne;
+    src: url(cac_champagne.woff);
+    src: url(cac_champagne.ttf);
+    font-family: Grunge;
+    src: url(1942.woff);
+    src: url(1942.ttf);
+    font-family: Dobkin;
+    src: url(DobkinPlain.woff);
+    src: url(DobkinPlain.ttf);
+}
+
+/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Tutorial 2
+   Case Problem 1
+   
+   PHCT Typographic Style Sheet
+   Author: Annette Segura 
+   Date:   9-6-18
+   
+   Filename: ph_styles.css
+
+*/
+/* Structural Styles */
+html {
+    background-color: hsl(91, 8%, 56%);
+}
+
+body {
+    background: hsl(58, 31%, 84%);
+    font-family: palatino linotype, book antiqua, palatino, serif;
+}
+
+header {
+    background-color: black;
+}
+
+body>p {
+    font-size: 1.1em;
+    text-align: center;
+}
+
+address {
+    font-style: normal;
+    font-size: 0.9em;
+    text-align: center;
+    padding: 10px;
+}
+
+/*
+chnaged colors in html and body. set fonts to match the theme of the webpage
+*/
+/* Navigation Styles */
+nav {
+    font-family: trebuchet MS, helvetica, sans-serif;
+    padding: 10px
+}
+
+/* Section Styles */
+/* Description List Styles */
