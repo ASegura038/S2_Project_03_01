@@ -131,4 +131,18 @@ section#play4 h1 {
     font-family: Dobkin, cursive;
 }
 
+/* For each catagory on the webpage, each section has its own color them and text font that asociates with them to display using the section element accompanied with an id. There was also a section class of palybill, setting the font size, weight, margin and padding. */
 /* Description List Styles */
+dl>dt {
+    font-size: 1.3em;
+    font-weight: bold;
+    color: hsla(0, 0%, 0%, 0.4)
+}
+
+dl>dd {
+    font-size: 1.3em;
+    margin-left: 0px;
+    margin-bottom: 10px;
+}
+
+/* these were used to set a font size and weight for each description of the play as well as setting the margin, padding and color of the text. */
